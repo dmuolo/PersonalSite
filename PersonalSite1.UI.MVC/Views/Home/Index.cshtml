@@ -2,30 +2,665 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+        <div class="section-title">
+            <h2>About</h2>
+            <p>Learn more about me</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="~/Content/img/Headshot.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>Full Stack Web Developer</h3>
+                <p class="font-italic">
+                    Specialize in the .NET Framework
+                </p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 1 Dec 1992</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.davidmuolo.com</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +123 665 9785</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Kansas City, KS</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 28</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.A. in Music</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> davidmuolo1@gmail.com</li>
+                            <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    I live in Kansas City, KS and am a passionate full stack web developer. I work in the .NET Framework with languages and technologies like HTML, CSS, JS, C#, jQuery, SQL, JSON, MVC, AJAX, and ReactJS.
+                    When I'm not developing, you may find me mentoring upcoming leaders or hanging out with my fiance&#233;.
+                </p>
+            </div>
+        </div>
+
+    </div><!-- End About Me -->
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="icofont-simple-smile"></i>
+                    <span data-toggle="counter-up">9000</span>
+                    <p>IQ</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                <div class="count-box">
+                    <i class="icofont-document-folder"></i>
+                    <span data-toggle="counter-up">8</span>
+                    <p>Projects</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                    <i class="icofont-live-support"></i>
+                    <span data-toggle="counter-up">1,463</span>
+                    <p>Hours Of Support</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                    <i class="icofont-users-alt-5"></i>
+                    <span data-toggle="counter-up">15</span>
+                    <p># of Penguins</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- End Counts -->
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+            <div class="col-lg-6">
+
+                <div class="progress">
+                    <span class="skill">HTML <i class="val">100%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">CSS <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">JavaScript <i class="val">75%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="progress">
+                    <span class="skill">C# <i class="val">80%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">jQuery <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="progress">
+                    <span class="skill">ReactJS <i class="val">55%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div><!-- End Skills -->
+    <!-- ======= Core Competencies ======= -->
+    <div class="interests container">
+
+        <div class="section-title">
+            <h2>Core Competencies</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <div class="icon-box">
+                    <i class="ri-store-line" style="color: #ffbb2c;"></i>
+                    <h3>HTML5</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+                    <h3>CSS3</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                <div class="icon-box">
+                    <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                    <h3>C#</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-database-2-line" style="color: #47aeff;"></i>
+                    <h3>jQuery</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                    <h3>SQL</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+                    <h3>JSON</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                    <h3>MVC</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-disc-line" style="color: #b20969;"></i>
+                    <h3>AJAX</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                    <h3>ReactJS</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+                <div class="icon-box">
+                    <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                    <h3>XML</h3>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- End Interests -->
+    <!-- ======= Testimonials ======= -->
+    <div class="testimonials container">
+
+        <div class="section-title">
+            <h2>Testimonials</h2>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    David does a great job.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Content/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Testimonial 1</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I recommend David because...
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Content/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>David Muolo</h3>
+                <h4>Testimonial 2</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    David is the real deal.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Content/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Testimonial 3</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    David apparently knows what he's doing.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Content/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Testimonial 4<h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Hire this guy.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Content/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Batman</h3>
+                <h4>Testimonial 5</h4>
+            </div>
+
+        </div>
+
+    </div><!-- End Testimonials  -->
+
+</section><!-- End About Section -->
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Resume</h2>
+            <p>Check My Resume</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="resume-title">Summary</h3>
+                <div class="resume-item pb-0">
+                    <h4>David Muolo</h4>
+                    <p><em>Really good web dev. Lorem ipsum etc. etc. etc. etc. etc. etc. etc. etc. etc. etc. etc. etc.</em></p>
+                    <p>
+                        <ul>
+                            <li>Kansas City, KS</li>
+                            <li>(816) 665 9785</li>
+                            <li>davidmuolo1@gmail.com</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <h3 class="resume-title">Education</h3>
+                <div class="resume-item">
+                    <h4>Bachelor of Arts in Music </h4>
+                    <h5>2016 - 2018 </h5>
+                    <p><em>University of Missouri-Kansas City - Conservatory of Music </em></p>
+                    <p>I learned to compose orchestral music in specialized music composition and editing software and graduated Magna Cum Laude.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>Associate of Arts </h4>
+                    <h5>2012 - 2014 </h5>
+                    <p><em>Metropolitan Community College of Kansas City </em></p>
+                    <p>I graduated with a near-perfect GPA and took additional courses in Linux OS and Networking Fundamentals.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="resume-title">Professional Background </h3>
+                <div class="resume-item">
+                    <h4>Shipping &#38; Receiving Coordinator </h4>
+                    <h5>2018 - 2020</h5>
+                    <p><em>Kansas City, KS </em></p>
+                    <p>
+                        <ul>
+                            <li>Oversaw all inbound &#38; outbound shipments at the largest site in a key railroad supply company. </li>
+                            <li>Served as the liaison and point of communication between top leadership, key department team members, the customer, and crew. </li>
+                            <li>Delegated shipping &#38; receiving tasks to a team of operators and foremen in a time-sensitive, multi-tasking environment. </li>
+                            <li>Assisted in the rollout of D365 software implementation by serving as the Shipping &#38; Receiving SME. </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="resume-item">
+                    <h4>Chipotle</h4>
+                    <h5>2015 - 2018</h5>
+                    <p><em>Blue Springs, MO</em></p>
+                    <p>
+                        <ul>
+                            <li>Exercised important customer service skills.</li>
+                            <li>Worked with a team to meet time-sensitive needs and prep goals.</li>
+                            <li>Worked as a cashier, worked on the line, prepped food, washed dishes.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section><!-- End Resume Section -->
+<!-- ======= Links Section ======= -->
+<section id="links" class="links">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>links</h2>
+            <p>My Links</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                    <h4><a href="">Link 1</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-file"></i></div>
+                    <h4><a href="">Link 2</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-tachometer"></i></div>
+                    <h4><a href="">Link 3</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-world"></i></div>
+                    <h4><a href="">Link 4</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-slideshow"></i></div>
+                    <h4><a href="">Link 5</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-arch"></i></div>
+                    <h4><a href="">Link 6</a></h4>
+                    <p>Not sure what these links will be quite yet!</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section><!-- End Links Section -->
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>My Works</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 1</h4>
+                        <p>App</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 2</h4>
+                        <p>App</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Card 2</h4>
+                        <p>Card</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 2</h4>
+                        <p>Web</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 3</h4>
+                        <p>App</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Card 1</h4>
+                        <p>Card</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Card 3</h4>
+                        <p>Card</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <div class="portfolio-links">
+                            <a href="~/Content/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="@Url.Action("PersonalDetails", "Home")" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-</div>
+</section><!-- End Portfolio Section -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Me</p>
+        </div>
+
+        <div class="row mt-2">
+
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>My Address</h3>
+                    <p>Kansas City, KS</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-share-alt"></i>
+                    <h3>Social Profiles</h3>
+                    <div class="social-links">
+                        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+                        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p>davidmuolo1@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Me</h3>
+                    <p>+1 816 665 9785</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+            <div class="form-row">
+                <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+    </div>
+</section><!-- End Contact Section -->
