@@ -9,24 +9,24 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
-  position: relative;
-  background: transparent;
+    font-family: "Open Sans", sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: transparent;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 100vh;
-  z-index: -1;
-}
+    body::before {
+        content: "";
+        position: fixed;
+        background: #040404 url("/Content/img/bg2.jpg") top right no-repeat;
+        background-size: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        z-index: -1;
+    }
 
 @media (min-width: 1024px) {
   body::before {
@@ -402,11 +402,14 @@ section .container {
   margin-bottom: 0;
 }
 
+.fontMod {
+    font-size: 1.1em;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 70px 0 60px;
+    padding: 70px 0 60px;
 }
 
 .counts .count-box {
@@ -653,88 +656,15 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Links
---------------------------------------------------------------*/
-.links .icon-box {
-  text-align: center;
-  background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-}
-
-.links .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #18d26e;
-  border-radius: 5px;
-  transition: all .3s ease-out 0s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transform-style: preserve-3d;
-}
-
-.links .icon-box .icon i {
-  color: #fff;
-  font-size: 28px;
-}
-
-.links .icon-box .icon::before {
-  position: absolute;
-  content: '';
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 5px;
-  transition: all .3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.links .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-
-.links .icon-box h4 a {
-  color: #fff;
-}
-
-.links .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.links .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
-}
-
-.links .icon-box:hover .icon {
-  background: #fff;
-}
-
-.links .icon-box:hover .icon i {
-  color: #18d26e;
-}
-
-.links .icon-box:hover .icon::before {
-  background: #35e888;
-}
-links .icon-box:hover h4 a, .links .icon-box:hover p {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+div.portfolio-wrap img {
+    height: 255px;
+    width: 340px;
 }
 
 .portfolio #portfolio-flters {
@@ -888,13 +818,91 @@ links .icon-box:hover h4 a, .links .icon-box:hover p {
 }
 
 /*--------------------------------------------------------------
+# Classmates
+--------------------------------------------------------------*/
+.classmates .icon-box {
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 40px 20px;
+    transition: all ease-in-out 0.3s;
+    height: 27em;
+    width: 20em;
+}
+
+    .classmates .icon-box h4 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .classmates .icon-box:hover {
+        background: #35e888CC;
+        border-color: #18d26e;
+    }
+
+div.icon-box h4 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: block;
+    margin-top: 28px;
+}
+
+/*.classmates .icon-box .icon {
+        margin: 0 auto;
+        background: #18d26e;
+        border-radius: 5px;
+        transition: all .3s ease-out 0s;
+        /*display: flex;
+        /*align-items: center;
+        /*justify-content: center;
+        /*margin-bottom: 20px;
+        transform-style: preserve-3d;
+    }
+    */
+/*.classmates .icon-box .icon::before {
+            position: absolute;
+            content: '';
+            left: -8px;
+            top: -8px;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 5px;
+            transition: all .3s ease-out 0s;
+            transform: translateZ(-1px);
+        }*/
+/*.classmates .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+}*/
+/*.classmates .icon-box h4 a {
+            color: #fff;
+        }
+
+    .classmates .icon-box p {
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }*/
+/*.classmates .icon-box:hover .icon {
+            background: #fff;
+        }*/
+/*.classmates .icon-box:hover .icon i {
+                color: #18d26e;
+            }*/
+/*.classmates .icon-box:hover .icon::before {
+                background: #35e888;
+            }*/
+/*classmates .icon-box:hover h4 a, .classmates .icon-box:hover p {
+            color: #fff;
+        }*/
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
-  padding: 20px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .contact .info-box i.bx {
