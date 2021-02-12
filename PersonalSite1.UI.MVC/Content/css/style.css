@@ -826,7 +826,7 @@ div.portfolio-wrap img {
     padding: 40px 20px;
     transition: all ease-in-out 0.3s;
     height: 27em;
-    width: 20em;
+    width: 22em;
 }
 
     .classmates .icon-box h4 {
@@ -835,15 +835,19 @@ div.portfolio-wrap img {
     }
 
     .classmates .icon-box:hover {
-        background: #35e888CC;
+        background: #35e88880;
         border-color: #18d26e;
     }
 
 div.icon-box h4 {
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     display: block;
     margin-top: 28px;
+}
+
+div.icon-box .classmateIcon {
+    font-size: 1.25em;
+    text-shadow: 4px 4px black;
 }
 
 /*.classmates .icon-box .icon {
@@ -898,6 +902,10 @@ div.icon-box h4 {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contactConfirm {
+    display: none;
+}
+
 .contact .info-box {
     color: #444444;
     padding: 20px;

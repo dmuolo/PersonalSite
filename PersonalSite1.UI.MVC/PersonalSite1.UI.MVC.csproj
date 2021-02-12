@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -226,6 +227,7 @@
     <Content Include="_Archive\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="_Archive\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="_Archive\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="_Archive\img\testimonials\JamesCaldwell.jfif" />
     <Content Include="_Archive\img\testimonials\testimonials-1.jpg" />
     <Content Include="_Archive\img\testimonials\testimonials-2.jpg" />
     <Content Include="_Archive\img\testimonials\testimonials-3.jpg" />
@@ -351,10 +353,11 @@
     <Content Include="_Archive\vendor\remixicon\remixicon.woff" />
     <Content Include="_Archive\vendor\remixicon\remixicon.woff2" />
     <Content Include="Views\Home\PortfolioDetails.cshtml" />
+    <Content Include="Views\Home\ContactAjax.cshtml" />
+    <Content Include="Views\Home\EmailConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
