@@ -420,6 +420,12 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
 }
 
+    .counts .count-box:hover {
+        background: #35e8884D;
+        border-color: #18d26e;
+        transition: 0.5s;
+    }
+
 .counts .count-box i {
   position: absolute;
   top: -25px;
@@ -597,6 +603,22 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+div.resume-item ul:hover {
+    background: #35e8884D;
+    border-color: #18d26e;
+    transition: 0.5s;
+}
+
+div.resume-item h5.hover:hover {
+    background: #35e8884D;
+    border-color: #18d26e;
+    transition: 0.5s;
+}
+
+div.resume-item ul {
+    font-weight: 600;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -904,6 +926,22 @@ div.icon-box .classmateIcon {
 --------------------------------------------------------------*/
 #contactConfirm {
     display: none;
+}
+
+div.col-md-6 div.info-box a {
+    font-weight: 600;
+    color: white;
+}
+
+    div.col-md-6 div.info-box a:hover {
+        color:#18d26e;
+        transition: 0.3s;
+    }
+
+div.section-title p.centered {
+    font-size: 1.5em;
+    margin-left: 17em;
+    text-decoration: wavy;
 }
 
 .contact .info-box {
