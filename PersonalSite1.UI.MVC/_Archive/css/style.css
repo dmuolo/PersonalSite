@@ -897,6 +897,15 @@ links .icon-box:hover h4 a, .links .icon-box:hover p {
   background: rgba(255, 255, 255, 0.08);
 }
 
+div.emailConfirm {
+    border: 2px solid #18d26e;
+}
+
+div.emailConfirm p {
+    font-weight: 600;
+
+}
+
 .contact .info-box i.bx {
   font-size: 24px;
   color: #18d26e;

@@ -86,7 +86,7 @@
             success: function (data) {
                 $("#contactForm").hide();
                 $("#contactConfirm").show();
-                $("#contactConfirm").html('<p>' + data.Name + ', your message has been received: <br />' + data.Message +'<br /> We will respond to ' +  data.Email + ' as soon as we can. Thank you for your email!');
+                $("#contactConfirm").html('<p>Hi, ' + data.Name + '! Your message has been received: <br /><em>' + data.Message +'</em><br /> <br /> I will respond to ' +  data.Email + ' as soon as I can. <br /> <br /> - David Muolo');
 
                 }
 

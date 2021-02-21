@@ -498,10 +498,18 @@ section .container {
   transition: ease-in-out 0.3s;
 }
 
+div.icon-box .outsideIcon {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-left: 2px;
+    margin-right: 12px;
+}
+
 .interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
 }
 
 .interests .icon-box h3 {
@@ -567,6 +575,7 @@ section .container {
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-size: 17px;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: rgba(255, 255, 255, 0.1);
@@ -615,10 +624,6 @@ div.resume-item h5.hover:hover {
     transition: 0.5s;
 }
 
-div.resume-item ul {
-    font-weight: 600;
-}
-
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -630,7 +635,7 @@ div.resume-item ul {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
   position: relative;
 }
 
@@ -657,8 +662,9 @@ div.resume-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+div.row div.resume-item ul li {
   padding-bottom: 10px;
+  font-weight: 300;
 }
 
 .resume .resume-item:last-child {

@@ -129,6 +129,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\Icons\applicationjson_92733.ico" />
+    <Content Include="Content\Icons\arrow_refresh_15732.ico" />
+    <Content Include="Content\Icons\bootstrap_plain_logo_icon_146619.ico" />
+    <Content Include="Content\Icons\csharp_original_logo_icon_146578.ico" />
+    <Content Include="Content\Icons\csharp_plain_logo_icon_146577.ico" />
+    <Content Include="Content\Icons\data-analysis_icon-icons.com_52842.ico" />
+    <Content Include="Content\Icons\dot_net_original_logo_icon_146546.ico" />
+    <Content Include="Content\Icons\file_type_css_icon_130661.ico" />
+    <Content Include="Content\Icons\file_type_html_icon_130541.ico" />
+    <Content Include="Content\Icons\file_type_reactjs_icon_130205.ico" />
+    <Content Include="Content\Icons\Github_social_media_corporate_logo_icon-icons.com_67672.ico" />
+    <Content Include="Content\Icons\javascript_plain_logo_icon_146454.ico" />
+    <Content Include="Content\Icons\jquery_original_logo_icon_146446 %281%29.ico" />
+    <Content Include="Content\Icons\language_javascript_icon_135455.ico" />
+    <Content Include="Content\Icons\officedatabase_104402.png" />
     <Content Include="Content\img\apple-touch-icon.png" />
     <Content Include="Content\img\bg.jpg" />
     <Content Include="Content\img\bg1.jpg" />
@@ -156,6 +171,7 @@
     <Content Include="Content\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="Content\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="Content\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="Content\img\testimonials\20210221_151321.jpg" />
     <Content Include="Content\img\testimonials\Eric Phillips.jfif" />
     <Content Include="Content\img\testimonials\testimonials-1.jpg" />
     <Content Include="Content\img\testimonials\testimonials-2.jpg" />
