@@ -171,6 +171,7 @@
     <Content Include="Content\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="Content\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="Content\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="Content\img\portfolio\SSSProject.PNG" />
     <Content Include="Content\img\testimonials\20210221_151321.jpg" />
     <Content Include="Content\img\testimonials\Eric Phillips.jfif" />
     <Content Include="Content\img\testimonials\testimonials-1.jpg" />
@@ -318,6 +319,7 @@
     <Content Include="Content\vendor\remixicon\remixicon.woff" />
     <Content Include="Content\vendor\remixicon\remixicon.woff2" />
     <Content Include="Content\img\bg %281%29.psd" />
+    <Content Include="Content\David Muolo Resume.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

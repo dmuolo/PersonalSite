@@ -612,6 +612,9 @@ div.icon-box .outsideIcon {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#download {
+}
+
 div.resume-item ul:hover {
     background: #35e8884D;
     border-color: #18d26e;
