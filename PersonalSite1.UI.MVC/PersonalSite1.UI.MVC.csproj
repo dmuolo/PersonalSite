@@ -128,6 +128,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\img\Classmates\bryan %281%29.jpg" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\Icons\applicationjson_92733.ico" />
     <Content Include="Content\Icons\arrow_refresh_15732.ico" />
@@ -159,18 +160,7 @@
     <Content Include="Content\img\Headshot.jpg" />
     <Content Include="Content\img\me.jpg" />
     <Content Include="Content\img\portfolio\A Paper Mario Adventure.PNG" />
-    <Content Include="Content\img\portfolio\portfolio-1.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-2.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-3.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-4.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-5.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-6.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-7.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-8.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-9.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-details-1.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-details-2.jpg" />
-    <Content Include="Content\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="Content\img\portfolio\Black, White and Pink Cube Kyobi Games Logo.png" />
     <Content Include="Content\img\portfolio\SSSProject.PNG" />
     <Content Include="Content\img\testimonials\20210221_151321.jpg" />
     <Content Include="Content\img\testimonials\Eric Phillips.jfif" />
@@ -319,7 +309,7 @@
     <Content Include="Content\vendor\remixicon\remixicon.woff" />
     <Content Include="Content\vendor\remixicon\remixicon.woff2" />
     <Content Include="Content\img\bg %281%29.psd" />
-    <Content Include="Content\David Muolo Resume.pdf" />
+    <Content Include="Content\David Muolo %28Resume%29.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -370,7 +360,6 @@
     <Content Include="_Archive\vendor\remixicon\remixicon.ttf" />
     <Content Include="_Archive\vendor\remixicon\remixicon.woff" />
     <Content Include="_Archive\vendor\remixicon\remixicon.woff2" />
-    <Content Include="Views\Home\PortfolioDetails.cshtml" />
     <Content Include="Views\Home\ContactAjax.cshtml" />
     <Content Include="Views\Home\EmailConfirm.cshtml" />
   </ItemGroup>
