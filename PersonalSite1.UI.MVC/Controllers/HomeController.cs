@@ -16,10 +16,10 @@ namespace PersonalSite1.UI.MVC.Controllers
             return View();
         }
 
-        public ActionResult PortfolioDetails()
-        {
-            return View();
-        }
+        //public ActionResult PortfolioDetails()
+        //{
+        //    return View();
+        //}
 
         [HttpPost]
         public JsonResult ContactAjax(ContactViewModel cvm)
@@ -33,7 +33,7 @@ namespace PersonalSite1.UI.MVC.Controllers
             m.ReplyToList.Add(cvm.Email);
 
             SmtpClient client = new SmtpClient("mail.davidmuolo.com");
-            client.Credentials = new NetworkCredential("admin@davidmuolo.com", "Stubble848!");
+            client.Credentials = new NetworkCredential("x@davidmuolo.com", "x");
 
             client.Port = 8889;
             try
