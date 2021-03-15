@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Sensitive Info
+Web.config
+Web.Debug.config
+Web.Release.config
+HomeController.cs
